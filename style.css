@@ -1,8 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
+    margin: 0;
+    height: 100vh;
     background-color: rgb(213, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
@@ -11,14 +14,16 @@ h3 {
 }
 
 .container {
-    max-width: 300px;
-    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+    width: 50vh;
     background-color: grey;
     padding: 20px;
     border-radius: 2.5%;
 }
 
 .counter {
+    width: 100%;
     font-size: 48px;
     color: white;
     margin-bottom: 20px;
